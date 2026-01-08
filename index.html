@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML CSS Learning</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Tutorial</h1>
     <header>
-        <nav>
-            <ul>
-                <li> <a href="#Home">Home</a> </li>
-                <li> <a href="#About Us">About Us</a></li>
-                <li> <a href="#Contact Us">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+                <nav>
+                    <ul>
+                        <li> <a href="#Home">Home</a> </li>
+                        <li> <a href="#About Us">About Us</a></li>
+                        <li> <a href="#Contact Us">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+    <div class="banner">
+        <h1>Welcome to Tutorial</h1>
+        <p>This is a beginner-friendly tutorial to learn HTML and CSS.</p>
+            
+    </div>
     
 
     <main> 
@@ -24,7 +29,8 @@
             <p> Here you will learn about many different concepts regarding Development</p>
             <img src ="dummyimg.jpg" width="300" height="300" alt="Development">
         </section>
-
+        
+        <div id="Types">
         <section>
             <h2>Types of Development</h2>
             <article>
@@ -32,6 +38,13 @@
                 <p>Web development is the work involved in developing a website for the Internet or an intranet. 
                     Web development can range from developing a simple single static page of plain text to complex web applications, 
                     electronic businesses, and social network services.</p>
+                    <aside>
+                        <h3>Related Info</h3>
+                            <ol type ="a">
+                                <li><a href="https://www.w3schools.com/html/html_intro.asp">HTML Basics</a></li>
+                                <li><a href="https://www.w3schools.com/css/">CSS Basics</a></li>
+                                <li><a href="https://www.w3schools.com/js/">JavaScript Basics</a></li>
+                    </aside>
                 <h3>Mobile App Dev</h3>
                 <p>Mobile app development is the process of creating software applications that run on a mobile device, 
                     and a typical mobile application utilizes a network connection to work with remote computing resources. 
@@ -39,38 +52,35 @@
                     implementing backend services such as data access with an API, and testing the application on target devices.</p>    
             </article>
         </section>
+        </div>
 
 
-        <aside>
-            <h3>Related Info</h3>
-            <ol type ="a">
-                <li><a href="https://www.w3schools.com/html/html_intro.asp">HTML Basics</a></li>
-                <li><a href="https://www.w3schools.com/css/">CSS Basics</a></li>
-                <li><a href="https://www.w3schools.com/js/">JavaScript Basics</a></li>
-        </aside>
+        
 
-        <table border="1">
-            <caption><b>Development Languages</b></caption>
-            <tr>
-                <th>Web Development</th>
-                <th>Mobile App Development</th>
-            </tr>
-            <tr>
-                <td>HTML, CSS, JavaScript, PHP, Python</td>
-                <td>Java, Kotlin, Swift, React Native, Flutter</td>
-            </tr>
-        </table>
+        <div id="flex">
+            <table border="1">
+                <caption><b>Development Languages</b></caption>
+                <tr>
+                    <th>Web Development</th>
+                    <th>Mobile App Development</th>
+                </tr>
+                <tr>
+                    <td>HTML, CSS, JavaScript, PHP, Python</td>
+                    <td>Java, Kotlin, Swift, React Native, Flutter</td>
+                </tr>
+            </table>
 
-        <form action="thankyou.html" method="get">
-            <h2>Contact for enquiry</h2>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-            <input type="submit" value="Submit">
-        </form>
+            <form action="thankyou.html" method="get">
+                <h2>Contact for enquiry</h2>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </main>
 </body>
 </html>

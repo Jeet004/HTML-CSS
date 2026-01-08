@@ -1,0 +1,44 @@
+* {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding:20px
+}
+
+.banner {
+    background-color: rgb(230, 230, 173);
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    align-items: end;
+    justify-content: end;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: end;
+}
+
+#flex {
+    margin-left: 15%;
+    display: flex;
+    gap: 200px;
+}
+
+#Types {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
