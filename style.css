@@ -66,18 +66,25 @@ nav ul {
 
 #Types {
     margin-top: 20px;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2%;
 }
 
-#Types article {
-    flex: 1;
-    flex-direction: row;
+.services {
+    margin-top: 20px;
+    gap: 20px;
 }
+
 
 footer{
     background-color: #2c2f27;
     color: #ffffff;
     text-align: center;
     padding: 16px 0;
+}
+
+#MainHeading{
+    display: flex;
+    justify-content: center;
 }
